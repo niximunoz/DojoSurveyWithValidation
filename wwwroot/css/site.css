@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.container1 {
+  margin: 50px auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  justify-content: space-around;
+  height: 320px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h3 {
+  text-align: center;
+}
+
+.sub-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

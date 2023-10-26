@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Usuario
+<div class="text-center">
+    <div class="containe1">
+        <h3>Submitted Container</h3>
+        <div class="sub-container">
+            <div>
+                <div>Name:</div>
+                <div>Dojo Location:</div>
+                <div>Favorite Language:</div>
+                <div>Comments:</div>
+            </div>
+            <div>
+                <div>@Model.FirstName</div>
+                <div>@Model.Location</div>
+                <div>@Model.Language</div>
+                <div>@Model.Comments</div>
+            </div>
+
+        </div>
+        <div class="btn">
+            <button class="btn btn-primary" type="submit">Go Back</button>
+        </div>
+    </div>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
